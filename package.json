@@ -29,7 +29,7 @@
     "rimraf": "^3.0.2",
     "rxjs": "^6.6.3",
     "swagger-ui-express": "^4.1.5",
-    "venom-bot": "^2.2.0"
+    "venom-bot": "^2.2.1"
   },
   "devDependencies": {
     "@nestjs/cli": "^7.5.1",

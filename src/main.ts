@@ -2,13 +2,12 @@ import { NestFactory } from '@nestjs/core';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { AppModule } from './app.module';
 
-
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   
   const options = new DocumentBuilder()
-  .setTitle('Cats example')
-  .setDescription('The cats API description')
+  .setTitle('Whatsapp discovery')
+  .setDescription('API description')
   .setVersion('1.0')
   .build();
   
@@ -18,8 +17,4 @@ async function bootstrap() {
   app.listen(3000);
 }
 
-
-
-
 bootstrap();
-
